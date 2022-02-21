@@ -50,7 +50,7 @@ def play_round(question, choices, answer, user_score):
     guesses = []
     print(f"\n[SCORE = {user_score}]")
     print(question)
-    for index, choice in enumerate(choices):
+    for index in range(0, len(choices)):
         guesses.append(chr(ord('`') + index + 1)) # append.(index to alphabet equivalent) e.g. 1 = a, 2 = b...
         print(" (" + guesses[index] + ") " + choices[index]) # (<letter> <answer_choice>)
     
