@@ -9,7 +9,8 @@ QUESTIONS = ["Which brand of soup featured in one of Andy Warhol's most famous p
              "Where was the first example of paper money used?",
              "What number was the Apollo mission that successfully put a man on the moon for the first time in human history?",
              "What is the largest US state (by landmass)?",
-             "Who developed the high-level computer programming language, C++?"]
+             "Who developed the high-level computer programming language, C++?",
+             "Who has an IQ of 500?"]
 
 QUESTION_CHOICES = [["Heinz", "Campbell's", "Baxters", "Watties"],
                     ["Ecuador","Canada", "Mexico", "Cuba"],
@@ -20,7 +21,8 @@ QUESTION_CHOICES = [["Heinz", "Campbell's", "Baxters", "Watties"],
                     ["China", "Turkey", "Greece"],
                     ["Apollo 11", "Apollo 12", "Apollo 13"],
                     ["Texas", "Alaska", "California"],
-                    ["Microsoft", "Linus Torvalds", "Alan Turing", "Bjarne Stroustrup"]]
+                    ["Microsoft", "Linus Torvalds", "Alan Turing", "Bjarne Stroustrup"],
+                    ["Jay Anino"]]
                     
 ANSWERS = ["b",
            "a",
@@ -31,7 +33,8 @@ ANSWERS = ["b",
            "a",
            "a",
            "b",
-           "d"]
+           "d",
+           "a"]
 
 QUESTIONS_LENGTH = len(QUESTIONS)
 
